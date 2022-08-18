@@ -31,7 +31,7 @@ const StyledColumn = styled.View`
     display: flex;
     justify-content: center; 
     align-items: center;
-    bottom: -13px;
+    bottom: -10px;
 `;
 
 const StyledSvgHelmet = styled(SvgHelmet)`
@@ -61,7 +61,7 @@ const StyledSubheader = styled.Text`
 const StyledSlider = styled(Slider)`
     margin-left: 16px;
     margin-right: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 `
 
 const App = () => {
@@ -131,8 +131,7 @@ const App = () => {
                     maximumTrackTintColor="#646464"
                     onValueChange={(newValue) => {
                         setIntensity(Math.round(newValue)) 
-                    }}
-                />
+                    }} />
             </StyledView>
         </SafeAreaView>
     )

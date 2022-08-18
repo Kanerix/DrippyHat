@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
     "@react-native-community/slider": "4.2.3",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "expo": "~46.0.6",
